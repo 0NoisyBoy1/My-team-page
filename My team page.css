@@ -1,0 +1,169 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f5f6f7;
+}
+  
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 70px 70px;
+}
+  
+.gallery img {
+  width: 100%;
+  max-width: 900px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: none;
+}
+  
+.gallery::after {
+  content: "";
+  width: 250px;
+}
+
+.col{
+  flex-basis: 40%;
+}
+
+.vertical{
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-size: 20px;
+  display: inline-block;
+  position: absolute;
+  padding: 0;
+}
+
+#OWNER{
+  border: double;
+  display: flex;
+  align-items: center;
+}
+
+#OWNER img{
+  margin-right: 0px;
+}
+
+#DIRECTOR{
+  border: double;
+  display: flex;
+  align-items: center;
+}
+
+#DIRECTOR img{
+  margin-right: 0px;
+}
+
+#LEAD{
+  border: double;
+  display: flex;
+  align-items: center;
+}
+
+#LEAD img{
+  margin-right: 0px;
+}
+
+#UX{
+  border: double;
+  display: flex;
+  align-items: center;
+}
+
+#UX img{
+  margin-right: 0px;
+}
+
+#DEV1{
+  border: double;
+  display: flex;
+  align-items: center;
+}
+
+#DEV1 img{
+  margin-right: 0px;
+}
+
+#DEV2{
+  border: double;
+  display: flex;
+  align-items: center;
+}
+
+#DEV2 img{
+  margin-right: 0px;
+}
+
+.DIRECTOR{
+  padding-top: 50px;
+}
+
+.LEAD{
+  padding-right: 50px;
+}
+
+.UX{
+  padding-right: 50px;
+}
+
+.DEV1{
+  padding-right: 50px;
+  padding-top: 90px;
+}
+
+.DEV2{
+  padding-right: 50px;
+}
+
+h1{
+  position: fixed;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15pt;
+  top: 25px;
+  left: 250px;
+}
+
+.desciption p h2{
+  font-size: 15pt;
+  color: grey;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 10px;
+  padding-left: 500px;
+}
+
+.desciption{
+  height: 70%;
+  text-align: left;
+  display: flex;
+  align-items: right;
+}
+
+h2{
+  position: fixed;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15pt;
+  top: 25px;
+  left: 70px;
+  width: 100%;
+}
+
+p{
+  font-size: 25pt;
+  color: grey;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 10px;
+  padding-right: 200px;
+  width: 100%;
+}
